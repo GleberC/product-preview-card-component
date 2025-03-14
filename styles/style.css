@@ -1,0 +1,199 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  font-family: "Fraunces", serif;*/
+/* font-family: "Montserrat", sans-serif; */
+
+/***  VARIABLES & THEMES ***/
+
+:root {
+
+    /* primary */
+    --Green-500: hsl(158, 36%, 37%);
+    --Green-700: hsl(158, 42%, 18%);
+    /* neutral */
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    width: vw;
+    height: 680px;
+    background-color: var(--Cream);
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+main {
+    font-family: "Montserrat", sans-serif;
+    width: 350px;
+    height: 630px;
+    margin: 1.2rem .7rem;
+    border-radius: 1rem;
+    background-color: var(--White);
+    color: var(--Grey);
+}
+
+img {
+    max-inline-size: 100%;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .8rem .8rem 0 0;
+}
+
+.text_container {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+h1,
+b {
+    font-family: "Fraunces", serif;
+    margin-bottom: 1rem;
+    color: var(--Black);
+}
+
+h2 {
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .4rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+p {
+    margin-bottom: 1.1rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.price {
+    display: flex;
+
+}
+
+b {
+    color: var(--Green-500);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#priceless {
+    text-decoration: line-through;
+    margin-left: 1.5rem;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--White);
+    background-color: var(--Green-500);
+    border: none;
+    border-radius: .8rem;
+    gap: 1.5rem;
+    width: 19rem;
+    height: 3.5rem;
+    text-decoration: none;
+
+}
+
+.bot:hover{
+    background-color: var(--Green-700);
+    transition: background-color .5s ease-in-out;
+
+}
+
+.bot p {
+    padding-top: 1rem;
+    font-weight: bold;
+
+}
+
+.bi {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width:700px) {
+    body{
+        display: flex;
+         justify-content: center;
+        align-items: center; 
+        
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        width: 650px;
+        height: 500px;
+        margin-top: 0;
+        padding-top: 0;
+        border-radius: 1rem;
+    }
+
+    img {
+        max-inline-size: 50%;
+        block-size: auto;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .text_container {
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        block-size: auto;
+
+    }
+
+    h1 {
+        margin-right: 2.5rem;
+    }
+
+    p {
+        margin: 1rem 2.5rem 1.5rem 0;
+
+    }
+
+    .bot {
+        padding-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .add_cart {
+        padding-bottom: .5rem;
+    }
+
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--Grey);
+}
