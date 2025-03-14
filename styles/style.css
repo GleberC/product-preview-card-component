@@ -180,6 +180,14 @@ a {
         padding-left: 2.5rem;
         width: 17rem;
     }
+    .price {
+        display: flex;
+        align-items: center;
+    
+    }
+    #priceless{
+        padding-bottom: 1rem;
+    }
 
     .add_cart {
         padding-bottom: .5rem;
