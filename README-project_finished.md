@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Product preview](https://github.com/GleberC/product-preview-card-component)
+- Live Site URL: [[Product preview](https://product-preview-card-component-six-puce.vercel.app/)
 
 ## My process
 
